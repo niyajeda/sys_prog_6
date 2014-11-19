@@ -1,0 +1,4 @@
+p1 = p2 + i funktioniert, weil i auf die Adresse des Zeigers addiert wird. Das ist zulässig.
+p2 = i + p2 funktioniert, da p1 = p2 + i funktioniert und Addition kommutativ
+i = p1  * p2 funktioniert nicht, da es C nicht unterstützt zwei Pointer miteinander zu multiplizieren
+i = p1 - p2 funktioniert, da es Sinn ergibt und deswegen unterstützt wird. i ist jetzt die Anzahl der Elemente, zwischen den beiden Adressen der Pointer
